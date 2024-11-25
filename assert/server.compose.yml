@@ -1,0 +1,4 @@
+# all server config
+services:
+  server: 
+   image:

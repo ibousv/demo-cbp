@@ -8,7 +8,6 @@ const server = new StellarSdk.Horizon.Server('http://127.0.0.1:8000', { allowHtt
 let issuingKeys = StellarSdk.Keypair
     .fromSecret('SCR7LJNJ2GLJNRLQKP3626YBO2OBKHK2YWCO6W3JSGBSIU2HRHWC33UF');
 
-
 let receivingKeys1 = StellarSdk.Keypair
     .fromSecret('SB2IIGTBRY7JWYAE73GLNOQD2VNSMUOZD6JAFXZ2XNJEXX3CZAO2NKFM');
 
