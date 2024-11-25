@@ -56,7 +56,6 @@ server.fetchBaseFee()
                     })).setTimeout(100)
                     .build();
 
-
                 transaction.sign(receivingKeys2);
                 server.submitTransaction(transaction);
                 //changelog -- added await and transaction result
