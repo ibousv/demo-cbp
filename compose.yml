@@ -1,0 +1,7 @@
+
+services:
+  stellar:
+    image: stellar/quickstart:latest
+    command: ["--local"]
+    ports:
+      - "8000:8000"

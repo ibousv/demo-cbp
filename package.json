@@ -1,0 +1,19 @@
+{
+  "name": "demo-cbp",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "ib",
+  "license": "ISC",
+  "description": "Cross border remittance test",
+  "dependencies": {
+    "@stellar/stellar-sdk": "^13.0.0",
+    "stellar-sdk": "^12.3.0"
+  },
+  "devDependencies": {
+    "typescript": "^5.7.2"
+  }
+}

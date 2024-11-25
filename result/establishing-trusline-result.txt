@@ -1,0 +1,162 @@
+Fee is 100
+Fee is 100
+Account is AccountResponse {
+  _baseAccount: Account {
+    _accountId: 'GCLRBXL7SVWXYGI3C2PMTKR7BRNBPHFUE7EF4SEVX3YFKHCQBZ3LWTMX',
+    sequence: BigNumber { s: 1, e: 13, c: [Array] }
+  },
+  _links: {
+    self: {
+      href: 'http://127.0.0.1:8000/accounts/GCLRBXL7SVWXYGI3C2PMTKR7BRNBPHFUE7EF4SEVX3YFKHCQBZ3LWTMX'
+    },
+    transactions: {
+      href: 'http://127.0.0.1:8000/accounts/GCLRBXL7SVWXYGI3C2PMTKR7BRNBPHFUE7EF4SEVX3YFKHCQBZ3LWTMX/transactions{?cursor,limit,order}',
+      templated: true
+    },
+    operations: {
+      href: 'http://127.0.0.1:8000/accounts/GCLRBXL7SVWXYGI3C2PMTKR7BRNBPHFUE7EF4SEVX3YFKHCQBZ3LWTMX/operations{?cursor,limit,order}',
+      templated: true
+    },
+    payments: {
+      href: 'http://127.0.0.1:8000/accounts/GCLRBXL7SVWXYGI3C2PMTKR7BRNBPHFUE7EF4SEVX3YFKHCQBZ3LWTMX/payments{?cursor,limit,order}',
+      templated: true
+    },
+    effects: {
+      href: 'http://127.0.0.1:8000/accounts/GCLRBXL7SVWXYGI3C2PMTKR7BRNBPHFUE7EF4SEVX3YFKHCQBZ3LWTMX/effects{?cursor,limit,order}',
+      templated: true
+    },
+    offers: {
+      href: 'http://127.0.0.1:8000/accounts/GCLRBXL7SVWXYGI3C2PMTKR7BRNBPHFUE7EF4SEVX3YFKHCQBZ3LWTMX/offers{?cursor,limit,order}',
+      templated: true
+    },
+    trades: {
+      href: 'http://127.0.0.1:8000/accounts/GCLRBXL7SVWXYGI3C2PMTKR7BRNBPHFUE7EF4SEVX3YFKHCQBZ3LWTMX/trades{?cursor,limit,order}',
+      templated: true
+    },
+    data: {
+      href: 'http://127.0.0.1:8000/accounts/GCLRBXL7SVWXYGI3C2PMTKR7BRNBPHFUE7EF4SEVX3YFKHCQBZ3LWTMX/data/{key}',
+      templated: true
+    }
+  },
+  id: 'GCLRBXL7SVWXYGI3C2PMTKR7BRNBPHFUE7EF4SEVX3YFKHCQBZ3LWTMX',
+  account_id: 'GCLRBXL7SVWXYGI3C2PMTKR7BRNBPHFUE7EF4SEVX3YFKHCQBZ3LWTMX',
+  sequence: '42623255445504',
+  subentry_count: 0,
+  last_modified_ledger: 9924,
+  last_modified_time: '2024-11-24T21:30:38Z',
+  thresholds: { low_threshold: 0, med_threshold: 0, high_threshold: 0 },
+  flags: {
+    auth_required: false,
+    auth_revocable: false,
+    auth_immutable: false,
+    auth_clawback_enabled: false
+  },
+  balances: [
+    {
+      balance: '100000.0000000',
+      buying_liabilities: '0.0000000',
+      selling_liabilities: '0.0000000',
+      asset_type: 'native'
+    }
+  ],
+  signers: [
+    {
+      weight: 1,
+      key: 'GCLRBXL7SVWXYGI3C2PMTKR7BRNBPHFUE7EF4SEVX3YFKHCQBZ3LWTMX',
+      type: 'ed25519_public_key'
+    }
+  ],
+  data: [Function (anonymous)],
+  num_sponsoring: 0,
+  num_sponsored: 0,
+  paging_token: 'GCLRBXL7SVWXYGI3C2PMTKR7BRNBPHFUE7EF4SEVX3YFKHCQBZ3LWTMX',
+  self: [Function (anonymous)],
+  transactions: [Function (anonymous)],
+  operations: [Function (anonymous)],
+  payments: [Function (anonymous)],
+  effects: [Function (anonymous)],
+  offers: [Function (anonymous)],
+  trades: [Function (anonymous)],
+  data_attr: {}
+}
+
+
+Account is AccountResponse {
+  _baseAccount: Account {
+    _accountId: 'GCQQTOAGNLNCR62LCS3GRC7F4WLA2KACY2GUYOZQQU7CQTP7335VV2BC',
+    sequence: BigNumber { s: 1, e: 13, c: [Array] }
+  },
+  _links: {
+    self: {
+      href: 'http://127.0.0.1:8000/accounts/GCQQTOAGNLNCR62LCS3GRC7F4WLA2KACY2GUYOZQQU7CQTP7335VV2BC'
+    },
+    transactions: {
+      href: 'http://127.0.0.1:8000/accounts/GCQQTOAGNLNCR62LCS3GRC7F4WLA2KACY2GUYOZQQU7CQTP7335VV2BC/transactions{?cursor,limit,order}',
+      templated: true
+    },
+    operations: {
+      href: 'http://127.0.0.1:8000/accounts/GCQQTOAGNLNCR62LCS3GRC7F4WLA2KACY2GUYOZQQU7CQTP7335VV2BC/operations{?cursor,limit,order}',
+      templated: true
+    },
+    payments: {
+      href: 'http://127.0.0.1:8000/accounts/GCQQTOAGNLNCR62LCS3GRC7F4WLA2KACY2GUYOZQQU7CQTP7335VV2BC/payments{?cursor,limit,order}',
+      templated: true
+    },
+    effects: {
+      href: 'http://127.0.0.1:8000/accounts/GCQQTOAGNLNCR62LCS3GRC7F4WLA2KACY2GUYOZQQU7CQTP7335VV2BC/effects{?cursor,limit,order}',
+      templated: true
+    },
+    offers: {
+      href: 'http://127.0.0.1:8000/accounts/GCQQTOAGNLNCR62LCS3GRC7F4WLA2KACY2GUYOZQQU7CQTP7335VV2BC/offers{?cursor,limit,order}',
+      templated: true
+    },
+    trades: {
+      href: 'http://127.0.0.1:8000/accounts/GCQQTOAGNLNCR62LCS3GRC7F4WLA2KACY2GUYOZQQU7CQTP7335VV2BC/trades{?cursor,limit,order}',
+      templated: true
+    },
+    data: {
+      href: 'http://127.0.0.1:8000/accounts/GCQQTOAGNLNCR62LCS3GRC7F4WLA2KACY2GUYOZQQU7CQTP7335VV2BC/data/{key}',
+      templated: true
+    }
+  },
+  id: 'GCQQTOAGNLNCR62LCS3GRC7F4WLA2KACY2GUYOZQQU7CQTP7335VV2BC',
+  account_id: 'GCQQTOAGNLNCR62LCS3GRC7F4WLA2KACY2GUYOZQQU7CQTP7335VV2BC',
+  sequence: '42623255445504',
+  subentry_count: 0,
+  last_modified_ledger: 9924,
+  last_modified_time: '2024-11-24T21:30:38Z',
+  thresholds: { low_threshold: 0, med_threshold: 0, high_threshold: 0 },
+  flags: {
+    auth_required: false,
+    auth_revocable: false,
+    auth_immutable: false,
+    auth_clawback_enabled: false
+  },
+  balances: [
+    {
+      balance: '100000.0000000',
+      buying_liabilities: '0.0000000',
+      selling_liabilities: '0.0000000',
+      asset_type: 'native'
+    }
+  ],
+  signers: [
+    {
+      weight: 1,
+      key: 'GCQQTOAGNLNCR62LCS3GRC7F4WLA2KACY2GUYOZQQU7CQTP7335VV2BC',
+      type: 'ed25519_public_key'
+    }
+  ],
+  data: [Function (anonymous)],
+  num_sponsoring: 0,
+  num_sponsored: 0,
+  paging_token: 'GCQQTOAGNLNCR62LCS3GRC7F4WLA2KACY2GUYOZQQU7CQTP7335VV2BC',
+  self: [Function (anonymous)],
+  transactions: [Function (anonymous)],
+  operations: [Function (anonymous)],
+  payments: [Function (anonymous)],
+  effects: [Function (anonymous)],
+  offers: [Function (anonymous)],
+  trades: [Function (anonymous)],
+  data_attr: {}
+}
