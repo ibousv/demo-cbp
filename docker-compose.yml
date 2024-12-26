@@ -5,8 +5,9 @@ services:
     ports:
       - "8000:8000"
   
-  container:
-    build:
-      context: .
-      dockerfile: Dockerfile
+ # Unused in linux env 
+ # container:
+ #   build:
+ #     context: .
+ #     dockerfile: Dockerfile
     
