@@ -3,10 +3,10 @@ const StellarSdk = require('stellar-sdk');
 const server = new StellarSdk.Horizon.Server('http://127.0.0.1:8000', { allowHttp: true });
 
 let issuingKeys = StellarSdk.Keypair
-    .fromSecret('SCR7LJNJ2GLJNRLQKP3626YBO2OBKHK2YWCO6W3JSGBSIU2HRHWC33UF');
+    .fromSecret('SCYIWURARVT5PW5A6VT4P2KL66QLVUGZCJSHZ67QMSJG3VXEE6HMTP4K');
 
 let receivingKeys2 = StellarSdk.Keypair
-    .fromSecret('SCO54YN5WO7OHKQ4RU7POYARR4KNY3UKTMBFBPRCFH36LZDGMPDA4DMZ');
+    .fromSecret('SBIJOTZUYETYKGU7DI3CABJREY6PPPXTFPXXTPH67UMMY44BTPJOD2TQ');
 
 let CFA = new StellarSdk.Asset("CFA", issuingKeys.publicKey());
 

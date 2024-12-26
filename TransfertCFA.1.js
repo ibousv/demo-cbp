@@ -3,10 +3,10 @@ const StellarSdk = require('stellar-sdk');
 const server = new StellarSdk.Horizon.Server('http://127.0.0.1:8000', { allowHttp: true });
 
 let issuingKeys = StellarSdk.Keypair
-    .fromSecret('SCR7LJNJ2GLJNRLQKP3626YBO2OBKHK2YWCO6W3JSGBSIU2HRHWC33UF');
+    .fromSecret('SCYIWURARVT5PW5A6VT4P2KL66QLVUGZCJSHZ67QMSJG3VXEE6HMTP4K');
 
 let receivingKeys1 = StellarSdk.Keypair
-    .fromSecret('SB2IIGTBRY7JWYAE73GLNOQD2VNSMUOZD6JAFXZ2XNJEXX3CZAO2NKFM');
+    .fromSecret('SDDGRBBUVNNVJD655PP3S2QDVY6VRM2TRTJOEDEBCVK2CBEJ3OE4I3RW');
 
 let CFA = new StellarSdk.Asset("CFA", issuingKeys.publicKey());
 
@@ -21,7 +21,7 @@ server.fetchBaseFee()
                     .addOperation(StellarSdk.Operation.payment({
                         destination: receivingKeys1.publicKey(),
                         asset: CFA,
-                        amount: '1000'
+                        amount: '5000'
                     })).setTimeout(100)
                     .build();
                 transaction.sign(issuingKeys);
