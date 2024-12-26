@@ -1,0 +1,210 @@
+Fee is 100
+Fee is 100
+Account is AccountResponse {
+  _baseAccount: Account {
+    _accountId: 'GBB4MBFUMJ533YTXNADH7R6ZKJHNIHJBALGJO7NBEYB5YVBZYKUVE6V4',
+    sequence: BigNumber { s: 1, e: 12, c: [Array] }
+  },
+  _links: {
+    self: {
+      href: 'http://127.0.0.1:8000/accounts/GBB4MBFUMJ533YTXNADH7R6ZKJHNIHJBALGJO7NBEYB5YVBZYKUVE6V4'
+    },
+    transactions: {
+      href: 'http://127.0.0.1:8000/accounts/GBB4MBFUMJ533YTXNADH7R6ZKJHNIHJBALGJO7NBEYB5YVBZYKUVE6V4/transactions{?cursor,limit,order}',
+      templated: true
+    },
+    operations: {
+      href: 'http://127.0.0.1:8000/accounts/GBB4MBFUMJ533YTXNADH7R6ZKJHNIHJBALGJO7NBEYB5YVBZYKUVE6V4/operations{?cursor,limit,order}',
+      templated: true
+    },
+    payments: {
+      href: 'http://127.0.0.1:8000/accounts/GBB4MBFUMJ533YTXNADH7R6ZKJHNIHJBALGJO7NBEYB5YVBZYKUVE6V4/payments{?cursor,limit,order}',
+      templated: true
+    },
+    effects: {
+      href: 'http://127.0.0.1:8000/accounts/GBB4MBFUMJ533YTXNADH7R6ZKJHNIHJBALGJO7NBEYB5YVBZYKUVE6V4/effects{?cursor,limit,order}',
+      templated: true
+    },
+    offers: {
+      href: 'http://127.0.0.1:8000/accounts/GBB4MBFUMJ533YTXNADH7R6ZKJHNIHJBALGJO7NBEYB5YVBZYKUVE6V4/offers{?cursor,limit,order}',
+      templated: true
+    },
+    trades: {
+      href: 'http://127.0.0.1:8000/accounts/GBB4MBFUMJ533YTXNADH7R6ZKJHNIHJBALGJO7NBEYB5YVBZYKUVE6V4/trades{?cursor,limit,order}',
+      templated: true
+    },
+    data: {
+      href: 'http://127.0.0.1:8000/accounts/GBB4MBFUMJ533YTXNADH7R6ZKJHNIHJBALGJO7NBEYB5YVBZYKUVE6V4/data/{key}',
+      templated: true
+    }
+  },
+  id: 'GBB4MBFUMJ533YTXNADH7R6ZKJHNIHJBALGJO7NBEYB5YVBZYKUVE6V4',
+  account_id: 'GBB4MBFUMJ533YTXNADH7R6ZKJHNIHJBALGJO7NBEYB5YVBZYKUVE6V4',
+  sequence: '5939939770368',
+  subentry_count: 0,
+  last_modified_ledger: 1383,
+  last_modified_time: '2024-12-26T19:08:58Z',
+  thresholds: { low_threshold: 0, med_threshold: 0, high_threshold: 0 },
+  flags: {
+    auth_required: false,
+    auth_revocable: false,
+    auth_immutable: false,
+    auth_clawback_enabled: false
+  },
+  balances: [
+    {
+      balance: '100000.0000000',
+      buying_liabilities: '0.0000000',
+      selling_liabilities: '0.0000000',
+      asset_type: 'native'
+    }
+  ],
+  signers: [
+    {
+      weight: 1,
+      key: 'GBB4MBFUMJ533YTXNADH7R6ZKJHNIHJBALGJO7NBEYB5YVBZYKUVE6V4',
+      type: 'ed25519_public_key'
+    }
+  ],
+  data: [Function (anonymous)],
+  num_sponsoring: 0,
+  num_sponsored: 0,
+  paging_token: 'GBB4MBFUMJ533YTXNADH7R6ZKJHNIHJBALGJO7NBEYB5YVBZYKUVE6V4',
+  self: [Function (anonymous)],
+  transactions: [Function (anonymous)],
+  operations: [Function (anonymous)],
+  payments: [Function (anonymous)],
+  effects: [Function (anonymous)],
+  offers: [Function (anonymous)],
+  trades: [Function (anonymous)],
+  data_attr: {}
+}
+Account is AccountResponse {
+  _baseAccount: Account {
+    _accountId: 'GCQXETCJM2TABWEIGC2CDA5VINTHFQUGXAXGABGDWSV2HPPLJLXNJOSI',
+    sequence: BigNumber { s: 1, e: 12, c: [Array] }
+  },
+  _links: {
+    self: {
+      href: 'http://127.0.0.1:8000/accounts/GCQXETCJM2TABWEIGC2CDA5VINTHFQUGXAXGABGDWSV2HPPLJLXNJOSI'
+    },
+    transactions: {
+      href: 'http://127.0.0.1:8000/accounts/GCQXETCJM2TABWEIGC2CDA5VINTHFQUGXAXGABGDWSV2HPPLJLXNJOSI/transactions{?cursor,limit,order}',
+      templated: true
+    },
+    operations: {
+      href: 'http://127.0.0.1:8000/accounts/GCQXETCJM2TABWEIGC2CDA5VINTHFQUGXAXGABGDWSV2HPPLJLXNJOSI/operations{?cursor,limit,order}',
+      templated: true
+    },
+    payments: {
+      href: 'http://127.0.0.1:8000/accounts/GCQXETCJM2TABWEIGC2CDA5VINTHFQUGXAXGABGDWSV2HPPLJLXNJOSI/payments{?cursor,limit,order}',
+      templated: true
+    },
+    effects: {
+      href: 'http://127.0.0.1:8000/accounts/GCQXETCJM2TABWEIGC2CDA5VINTHFQUGXAXGABGDWSV2HPPLJLXNJOSI/effects{?cursor,limit,order}',
+      templated: true
+    },
+    offers: {
+      href: 'http://127.0.0.1:8000/accounts/GCQXETCJM2TABWEIGC2CDA5VINTHFQUGXAXGABGDWSV2HPPLJLXNJOSI/offers{?cursor,limit,order}',
+      templated: true
+    },
+    trades: {
+      href: 'http://127.0.0.1:8000/accounts/GCQXETCJM2TABWEIGC2CDA5VINTHFQUGXAXGABGDWSV2HPPLJLXNJOSI/trades{?cursor,limit,order}',
+      templated: true
+    },
+    data: {
+      href: 'http://127.0.0.1:8000/accounts/GCQXETCJM2TABWEIGC2CDA5VINTHFQUGXAXGABGDWSV2HPPLJLXNJOSI/data/{key}',
+      templated: true
+    }
+  },
+  id: 'GCQXETCJM2TABWEIGC2CDA5VINTHFQUGXAXGABGDWSV2HPPLJLXNJOSI',
+  account_id: 'GCQXETCJM2TABWEIGC2CDA5VINTHFQUGXAXGABGDWSV2HPPLJLXNJOSI',
+  sequence: '5939939770368',
+  subentry_count: 0,
+  last_modified_ledger: 1383,
+  last_modified_time: '2024-12-26T19:08:58Z',
+  thresholds: { low_threshold: 0, med_threshold: 0, high_threshold: 0 },
+  flags: {
+    auth_required: false,
+    auth_revocable: false,
+    auth_immutable: false,
+    auth_clawback_enabled: false
+  },
+  balances: [
+    {
+      balance: '100000.0000000',
+      buying_liabilities: '0.0000000',
+      selling_liabilities: '0.0000000',
+      asset_type: 'native'
+    }
+  ],
+  signers: [
+    {
+      weight: 1,
+      key: 'GCQXETCJM2TABWEIGC2CDA5VINTHFQUGXAXGABGDWSV2HPPLJLXNJOSI',
+      type: 'ed25519_public_key'
+    }
+  ],
+  data: [Function (anonymous)],
+  num_sponsoring: 0,
+  num_sponsored: 0,
+  paging_token: 'GCQXETCJM2TABWEIGC2CDA5VINTHFQUGXAXGABGDWSV2HPPLJLXNJOSI',
+  self: [Function (anonymous)],
+  transactions: [Function (anonymous)],
+  operations: [Function (anonymous)],
+  payments: [Function (anonymous)],
+  effects: [Function (anonymous)],
+  offers: [Function (anonymous)],
+  trades: [Function (anonymous)],
+  data_attr: {}
+}
+{
+  _links: {
+    self: {
+      href: 'http://127.0.0.1:8000/transactions/82e7b21c07ead93cd01051a05bf297d12d1e8664cb8fd56cc082f4f47eedffc6'
+    },
+    account: {
+      href: 'http://127.0.0.1:8000/accounts/GCQXETCJM2TABWEIGC2CDA5VINTHFQUGXAXGABGDWSV2HPPLJLXNJOSI'
+    },
+    ledger: { href: 'http://127.0.0.1:8000/ledgers/3023' },
+    operations: {
+      href: 'http://127.0.0.1:8000/transactions/82e7b21c07ead93cd01051a05bf297d12d1e8664cb8fd56cc082f4f47eedffc6/operations{?cursor,limit,order}',
+      templated: true
+    },
+    effects: {
+      href: 'http://127.0.0.1:8000/transactions/82e7b21c07ead93cd01051a05bf297d12d1e8664cb8fd56cc082f4f47eedffc6/effects{?cursor,limit,order}',
+      templated: true
+    },
+    precedes: {
+      href: 'http://127.0.0.1:8000/transactions?order=asc&cursor=12983686139904'
+    },
+    succeeds: {
+      href: 'http://127.0.0.1:8000/transactions?order=desc&cursor=12983686139904'
+    },
+    transaction: {
+      href: 'http://127.0.0.1:8000/transactions/82e7b21c07ead93cd01051a05bf297d12d1e8664cb8fd56cc082f4f47eedffc6'
+    }
+  },
+  id: '82e7b21c07ead93cd01051a05bf297d12d1e8664cb8fd56cc082f4f47eedffc6',
+  paging_token: '12983686139904',
+  successful: true,
+  hash: '82e7b21c07ead93cd01051a05bf297d12d1e8664cb8fd56cc082f4f47eedffc6',
+  ledger: 3023,
+  created_at: '2024-12-26T19:36:21Z',
+  source_account: 'GCQXETCJM2TABWEIGC2CDA5VINTHFQUGXAXGABGDWSV2HPPLJLXNJOSI',
+  source_account_sequence: '5939939770369',
+  fee_account: 'GCQXETCJM2TABWEIGC2CDA5VINTHFQUGXAXGABGDWSV2HPPLJLXNJOSI',
+  fee_charged: '100',
+  max_fee: '100',
+  operation_count: 1,
+  envelope_xdr: 'AAAAAgAAAAChckxJZqYA2IgwtCGDtUNmcsKGuC5gBMO0q6O960ru1AAAAGQAAAVnAAAAAQAAAAEAAAAAAAAAAAAAAABnbbCYAAAAAAAAAAEAAAABAAAAAKFyTElmpgDYiDC0IYO1Q2Zywoa4LmAEw7Sro73rSu7UAAAABgAAAAFDRkEAAAAAADn5ffVZVnF2gga3sb1sPpAZxlQXF+tnWrEhfE07bZ9JAAAJGE5yoAAAAAAAAAAAAetK7tQAAABAyTKoTV+qFXrX8SlMzzUzslel12aHgmoJJs91kmNcE8vyayHeWyN3s/6ESqmGAa6F7bRwRsaTbiQ8tZI08x3WBw==',
+  result_xdr: 'AAAAAAAAAGQAAAAAAAAAAQAAAAAAAAAGAAAAAAAAAAA=',
+  result_meta_xdr: 'AAAAAwAAAAAAAAACAAAAAwAAC88AAAAAAAAAAKFyTElmpgDYiDC0IYO1Q2Zywoa4LmAEw7Sro73rSu7UAAAA6NSlD5wAAAVnAAAAAAAAAAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAQAAC88AAAAAAAAAAKFyTElmpgDYiDC0IYO1Q2Zywoa4LmAEw7Sro73rSu7UAAAA6NSlD5wAAAVnAAAAAQAAAAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAAAAAAAMAAAAAAAALzwAAAABnbbA1AAAAAAAAAAEAAAADAAAAAAAAC88AAAABAAAAAKFyTElmpgDYiDC0IYO1Q2Zywoa4LmAEw7Sro73rSu7UAAAAAUNGQQAAAAAAOfl99VlWcXaCBrexvWw+kBnGVBcX62dasSF8TTttn0kAAAAAAAAAAAAACRhOcqAAAAAAAQAAAAAAAAAAAAAAAwAAC88AAAAAAAAAAKFyTElmpgDYiDC0IYO1Q2Zywoa4LmAEw7Sro73rSu7UAAAA6NSlD5wAAAVnAAAAAQAAAAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAAAAAAAMAAAAAAAALzwAAAABnbbA1AAAAAAAAAAEAAAvPAAAAAAAAAAChckxJZqYA2IgwtCGDtUNmcsKGuC5gBMO0q6O960ru1AAAAOjUpQ+cAAAFZwAAAAEAAAABAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAIAAAAAAAAAAAAAAAAAAAADAAAAAAAAC88AAAAAZ22wNQAAAAAAAAAAAAAAAA==',
+  fee_meta_xdr: 'AAAAAgAAAAMAAAVnAAAAAAAAAAChckxJZqYA2IgwtCGDtUNmcsKGuC5gBMO0q6O960ru1AAAAOjUpRAAAAAFZwAAAAAAAAAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAEAAAvPAAAAAAAAAAChckxJZqYA2IgwtCGDtUNmcsKGuC5gBMO0q6O960ru1AAAAOjUpQ+cAAAFZwAAAAAAAAAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAAAAAAA==',
+  memo_type: 'none',
+  signatures: [
+    'yTKoTV+qFXrX8SlMzzUzslel12aHgmoJJs91kmNcE8vyayHeWyN3s/6ESqmGAa6F7bRwRsaTbiQ8tZI08x3WBw=='
+  ],
+  preconditions: { timebounds: { min_time: '0', max_time: '1735241880' } },
+  offerResults: undefined
+}

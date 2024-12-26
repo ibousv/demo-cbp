@@ -1,3 +1,4 @@
+// Creating an Asset sample code
 const StellarSdk = require('stellar-sdk');
 
 const server = new StellarSdk.Horizon.Server('http://127.0.0.1:8000', { allowHttp: true });
@@ -10,7 +11,7 @@ var receivingKeys1 = StellarSdk.Keypair
 var receivingKeys2 = StellarSdk.Keypair
     .fromSecret('');
 
-var USD = new StellarSdk.Asset('USD', 'GAIHBCB57M2SDFQYUMANDBHW4YYMD3FJVK2OGHRKKCNF2HBZIRBKRX6E');
+var USD = new StellarSdk.Asset('{asset id}', '{public key}');
 
 
 
