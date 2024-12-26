@@ -1,7 +1,10 @@
-
+// Sdk import
+// Main program to create master key and fellow accounts
+//  
 const StellarSdk = require('stellar-sdk');
 
-const server = new StellarSdk.Horizon.Server('http://127.0.0.1:8000', { allowHttp: true });
+const server = new 
+StellarSdk.Horizon.Server('http://127.0.0.1:8000', { allowHttp: true });
 
 const passphrase = 'Standalone Network ; February 2017'
 
