@@ -8,7 +8,7 @@ const conString =
     "postgres://bankauser:bankauser@localhost:5432/banka";
 const requestObj = require('request');
 const client = new pg.Client(conString);
-// Rempllacer par ton asset 
+// Remplacer par ton asset 
 const USD = 'USD';
 // Remplacer par la cle public du issuer ou issuingkeys
 const issuer =
