@@ -4,7 +4,33 @@ services:
     command: ["--local"]
     ports:
       - "8000:8000"
-  
+  databases:
+    image: postgres:latest
+    environment:
+        - POSTGRES_USER=postgres
+        - POSTGRES_PASSWORD=postgres
+    ports:
+       - "5432:5432"
+
+  # banka:
+  #     image: postgres:latest
+  #     environment:
+  #       - POSTGRES_USER=bankauser
+  #       - POSTGRES_PASSWORD=banka
+  #       - POSTGRES_DB=banka
+  #     ports:
+  #       - "5433:5432"  
+  # bankb:
+  #     image: postgres:latest
+  #     environment:
+  #       - POSTGRES_USER=bankbuser
+  #       - POSTGRES_PASSWORD=bankb
+  #       - POSTGRES_DB=bankb          
+  #     ports:
+  #       - "5432:5432"
+   
+
+
  # Unused in linux env 
  # container:
  #   build:
