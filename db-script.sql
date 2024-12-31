@@ -31,6 +31,25 @@ amount INTEGER,
 currency VARCHAR,
 kyc_info VARCHAR
 );
+/* Bank A */ 
+INSERT INTO users(name, address, dob, friendlyid, sanction,
+balance, domain)
+VALUES
+('John Doe', 'cityA', '01011988', 'johndoe', true, 1000,
+'banka.com');
+
+INSERT INTO sanction(domain, bankname, sanction)
+VALUES('bankb.com', 'Bank B', true);
+
+/* Bank B */
+INSERT INTO users(name, address, dob, friendlyid, sanction,
+balance, domain)
+VALUES
+('Jane Smith', 'cityB', '31031991', 'janesmith', true, 2000,
+'bankb.com');
+
+INSERT INTO sanction(domain, bankname, sanction)
+VALUES('banka.com', 'Bank A', true);
 
 CREATE DATABASE bridgea OWNER bankauser;
 CREATE DATABASE bridgeb OWNER bankbuser;
