@@ -14,13 +14,13 @@ dob INTEGER,
 friendlyid VARCHAR PRIMARY KEY,
 sanction BOOLEAN,
 balance INTEGER,
-domain VARCHAR,
+domain VARCHAR
 );
 
 CREATE TABLE sanction (
 domain VARCHAR,
 bankname VARCHAR,
-sanction BOOLEAN,
+sanction BOOLEAN
 );
 
 CREATE TABLE transactions (
@@ -29,7 +29,7 @@ sender VARCHAR,
 receiver VARCHAR,
 amount INTEGER,
 currency VARCHAR,
-kyc_info VARCHAR,
+kyc_info VARCHAR
 );
 
 CREATE DATABASE bridgea OWNER bankauser;

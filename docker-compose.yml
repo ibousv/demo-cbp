@@ -5,7 +5,7 @@ services:
     ports:
       - "8000:8000"
   databases:
-    image: postgres:latest
+    image: postgres:16
     environment:
         - POSTGRES_USER=postgres
         - POSTGRES_PASSWORD=postgres
